@@ -8,7 +8,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from datetime import datetime
 
-API_TOKEN = 'YOUR_BOT_TOKEN_HERE'
+API_TOKEN = '6588073582:AAE1HeohTQM-ran14BzGZWlSOe662duklvw'
 
 bot = Bot(token=API_TOKEN)
 storage = MemoryStorage()
