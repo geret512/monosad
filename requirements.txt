@@ -1,2 +1,2 @@
-aiogram==2.25.1
-asyncio
+aiogram==3.0.0b9
+sqlite3==3.35.5
