@@ -62,4 +62,4 @@ async def start_cmd(message: types.Message):
 # Додаткові функції ... (скорочено для читабельності, можна буде додати повністю)
 
 if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)
+    
