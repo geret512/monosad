@@ -8,7 +8,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from datetime import datetime
 
-API_TOKEN = '6588073582:AAE1HeohTQM-ran14BzGZWlSOe662duklvw'
+API_TOKEN = 'YOUR_BOT_TOKEN_HERE'
 
 bot = Bot(token=API_TOKEN)
 storage = MemoryStorage()
@@ -62,4 +62,4 @@ async def start_cmd(message: types.Message):
 # Додаткові функції ... (скорочено для читабельності, можна буде додати повністю)
 
 if __name__ == '__main__':
-    
+    executor.start_polling(dp, skip_updates=True)
